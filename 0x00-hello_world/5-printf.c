@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
  * main - main block, this function should print the sentence
- * return:0
+ *
+ * Return: Always 0 Success)
  */
 int main(void)
 {
