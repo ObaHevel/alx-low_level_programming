@@ -1,10 +1,8 @@
 #include"main.h"
-
 /**
  * times_table - print the 9 times table
  * Return: 0 (Always Success)
  */
-
 void times_tables(void)
 {
 	int a, b, c;
@@ -21,16 +19,16 @@ void times_tables(void)
 					_putchar('0');
 				}
 
+				if (b != 0)
+				{
+					_putchar(' ');
+					_putchar((c % 10) + '0');
+				}
 				if (b < 9)
 				{
 					_putchar(',');
 					_putchar(' ');
 				}
-
-				/*
-				 * put space if product is single number
-				 * place the first digit if its two numbers
-				 */
 			}
 			else
 			{
@@ -45,4 +43,6 @@ void times_tables(void)
 
 		}
 
-		_putchar('\n')
+		_putchar('\n');
+	}
+}
