@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * print_triangle - create triangle
+ * print_triangle - prints a triangle
  * @size: params
  * Return: 0
  */
 
 void print_triangle(int size)
 {
-	int i 0, j, n = size - 1;
+	int i = 0, j, n = size - 1;
 
 	if (size > 0)
 	{
@@ -22,7 +22,7 @@ void print_triangle(int size)
 					_putchar('#');
 			}
 			n--;
-			_puchar('\n');
+			_putchar('\n');
 		}
 	}
 	else
